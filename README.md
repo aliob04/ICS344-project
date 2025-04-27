@@ -4,8 +4,8 @@
 | Name              | ID        | Contribution     |
 |-------------------|-----------|------------------|
 | Ali Al-Nassir     | 202155330 | Phase 1, Phase 3 |
-| Ali Al-Bugeaey    | 202153970 | Documentation    |
-| Abdullah Al-Jishi | 202183870 | Phase 2          |
+| Ali Al-Bugeaey    | 202153970 | Phase 2          |
+| Abdullah Al-Jishi | 202183870 | Documentation    |
 
 ## Phase Details
 
@@ -16,6 +16,7 @@
 - **Proof of Concept**:
   - Successful SSH login with compromised credentials
   - Screenshots of vulnerability scanning and exploitation
+- **Details**: [Phase 1 Details](Phase%201/READ.md)
 
 ### Phase 2: SIEM Analysis
 - **Tools Used**: Splunk
@@ -26,6 +27,7 @@
 - **Findings**:
   - Identified attack patterns
   - Correlated events from multiple sources
+- **Details**: [Phase 2 Details](Phase%202/READ.md)
 
 ### Phase 3: Defense Strategy (Fail2Ban)
 - **Implementation**:
@@ -36,3 +38,4 @@
   - Before: Unlimited brute force attempts possible
   - After: IP banned after 5 failed attempts (evidence in screenshots)
   - Screenshots show blocked IPs in Fail2Ban log
+- **Details**: [Phase 3 Details](Phase%203/READ.md)
