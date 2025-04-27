@@ -17,6 +17,8 @@ This phase demonstrates SSH brute force attacks against Metasploitable3 using:
 
 ## Attack Methodologies  
 
+![image](https://github.com/user-attachments/assets/19d3a39f-f3a8-4b12-8f30-b185c878e1aa)
+
 ### 1. Metasploit Brute Force Attack  
 #### Configuration:  
 ```bash
@@ -44,6 +46,8 @@ run
 ---
 
 ### 2. Custom Python Brute Force Script  
+
+![image](https://github.com/user-attachments/assets/19bc2092-83d9-4c58-a290-8792e1a389a8)
 
 #### Script: `compromise.py`  
 ```python
@@ -116,7 +120,10 @@ if __name__ == "__main__":
     main()
 ```
 
-#### **Execution:**  
+#### **Execution:** 
+
+![image](https://github.com/user-attachments/assets/7afeb784-38fd-4788-aa69-2df8ee1db8a5)
+ 
 ```bash
 python3 compromise.py
 ```
