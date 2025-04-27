@@ -69,4 +69,3 @@ sshd[2363]: Accepted password for vagrant
 
 ---
 
-Let me know if you'd like more improvements!
