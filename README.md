@@ -1,5 +1,10 @@
 # ICS344-project
 
+## Contribution:
+- **Ali Al-Nassir (202155330)**: Phase 1, Phase 3
+- **Ali Al-Bugeaey (202153970)**: Phase 2
+- **Abdullah Al-Jishi (202183870)**: Documentation
+
 ## Phase Details
 
 ### Phase 1: SSH Service Compromise
