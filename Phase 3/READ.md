@@ -1,6 +1,4 @@
 # Phase 3: Fail2Ban Defense Implementation  
-![Security](https://img.shields.io/badge/Defense-Fail2Ban-red) 
-![Protection](https://img.shields.io/badge/SSH-Hardening-blueviolet)
 
 ## 📝 Overview  
 This phase demonstrates the implementation of Fail2Ban to:
