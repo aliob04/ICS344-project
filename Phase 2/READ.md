@@ -2,7 +2,7 @@
 
 ---
 
-## 📝 Overview
+##  Overview
 
 This phase demonstrates security event monitoring using Splunk to:
 - Forward SSH authentication logs
@@ -11,7 +11,7 @@ This phase demonstrates security event monitoring using Splunk to:
 
 ---
 
-## 🔍 Analysis Methodologies
+##  Analysis Methodologies
 
 ### 1. Splunk Forwarder Configuration
 ![image](https://github.com/user-attachments/assets/cdf8d5e3-e954-458c-8b65-de4e11d89488)
@@ -61,7 +61,7 @@ sshd[2363]: Accepted password for vagrant
 
 ---
 
-## 📋 Requirements
+##  Requirements
 
 - Splunk Enterprise
 - Splunk Universal Forwarder v9.4.1
