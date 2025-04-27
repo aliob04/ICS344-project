@@ -16,7 +16,7 @@
 - **Proof of Concept**:
   - Successful SSH login with compromised credentials
   - Screenshots of vulnerability scanning and exploitation
-- **Details**: [Phase 1 Details](Phase 1/READ.md)
+- **Details**: [Phase 1 Details](Phase1/READ.md)
 
 ### Phase 2: SIEM Analysis
 - **Tools Used**: Splunk
@@ -27,7 +27,7 @@
 - **Findings**:
   - Identified attack patterns
   - Correlated events from multiple sources
-- **Details**: [Phase 2 Details](Phase 2/READ.md)
+- **Details**: [Phase 2 Details](Phase2/READ.md)
 
 ### Phase 3: Defense Strategy (Fail2Ban)
 - **Implementation**:
@@ -38,4 +38,4 @@
   - Before: Unlimited brute force attempts possible
   - After: IP banned after 5 failed attempts (evidence in screenshots)
   - Screenshots show blocked IPs in Fail2Ban log
-- **Details**: [Phase 3 Details](Phase 3/READ.md)
+- **Details**: [Phase 3 Details](Phase3/READ.md)
