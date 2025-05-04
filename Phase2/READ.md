@@ -59,8 +59,8 @@ sshd[2363]: Failed password for vagrant
 sshd[2363]: Accepted password for vagrant
 ```
 ##  Visualization
-```text
 ![visualization](https://github.com/user-attachments/assets/9f3b37f6-2833-4b98-b2d5-9a0943fe883d)
+```text
 This pattern of short, intense bursts of failed logins is exactly what we expect to see when a system is being hit by a brute-force attack. It indicates that an external source was rapidly and repeatedly trying to log in incorrectly during those specific times.
 ```
 ---
